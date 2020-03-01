@@ -8,7 +8,6 @@ while True:
 	ipt = int(ipt)
 	if ipt == r:
 		print('你答對了!')
-		print('你總共猜了', x ,'次')
 		break
 	elif ipt > r:
 		print('你輸入的數字比答案大喔')
@@ -16,4 +15,4 @@ while True:
 	elif ipt < r:
 		print('你輸入的數字比答案小喔')
 		x = x + 1
-
+	print('你總共猜了', x ,'次')
